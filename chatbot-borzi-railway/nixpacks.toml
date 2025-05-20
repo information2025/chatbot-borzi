@@ -7,7 +7,7 @@ nixPkgs = [
   "atk",
   "libcups",
   "mesa",
-  "alsaLib",
+  "alsa-lib",
   "pango",
   "libXScrnSaver",
   "gtk3",
