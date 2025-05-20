@@ -12,7 +12,6 @@ nixPkgs = [
   "libXScrnSaver",
   "gtk3",
   "libxshmfence",
-  "glu",
   "libgbm"
 ]
 
