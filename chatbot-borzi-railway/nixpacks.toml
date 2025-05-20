@@ -8,7 +8,7 @@ nixPkgs = [
   "mesa",
   "alsa-lib",
   "pango",
-  "libXScrnSaver",
+  "libXScrnsaver",
   "gtk3",
   "libxshmfence",
   ]
