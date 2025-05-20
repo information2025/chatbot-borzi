@@ -1,16 +1,18 @@
 [phases.setup]
 nixPkgs = [
-  "nodejs_18",
-  "chromium",
-  "libnss",
-  "atk",
-  "libcups",
-  "mesa",
-  "alsa-lib",
-  "pango",
-  "gtk3",
-  "libxshmfence",
-  ]
-
+  "nodejs_18",              # ✅ OK
+  "npm_9",                  # ✅ OK
+  "chromium",               # ✅ OK
+  "libnss",                 # ✅ OK
+  "atk",                    # ✅ OK
+  "cups",                   # ✅ Corrigido de 'libcups'
+  "mesa",                   # ✅ OK
+  "alsa-lib",               # ✅ OK
+  "pango",                  # ✅ OK
+  "gtk3",                   # ✅ OK
+  "libxshmfence",           # ✅ OK
+  "libgbm",                 # ✅ OK
+  "xorg.libXScrnSaver"      # ✅ Corrigido de 'libXScrnSaver'
+]
 [start]
 cmd = "node chatbot-borzi.js"
