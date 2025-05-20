@@ -1,18 +1,18 @@
 [phases.setup]
 nixPkgs = [
-  "nodejs_18"
-  "npm_9"          # npm-9_x não existe, npm_9 é o pacote correto no nixpkgs
-  "chromium"
-  "libnss"
-  "atk"
-  "libcups"
-  "mesa"
-  "alsaLib"
-  "pango"
-  "libXScrnSaver"
-  "gtk3"
-  "libxshmfence"
-  "glu"
+  "nodejs_18",
+  "npm_9",
+  "chromium",
+  "libnss",
+  "atk",
+  "libcups",
+  "mesa",
+  "alsaLib",
+  "pango",
+  "libXScrnSaver",
+  "gtk3",
+  "libxshmfence",
+  "glu",
   "libgbm"
 ]
 
