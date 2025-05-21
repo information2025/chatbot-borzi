@@ -1,15 +1,13 @@
-[phases.setup]
-nixPkgs = [
-  "nodejs_18",              # ✅ OK
-  "chromium",               # ✅ OK
-  "nss",                 # ✅ OK
-  "atk",                    # ✅ OK
-  "cups",                   # ✅ Corrigido de 'libcups'
-  "mesa",                   # ✅ OK
-  "alsa-lib",               # ✅ OK
-  "pango",                  # ✅ OK
-  "gtk3",                   # ✅ OK
-  "libxshmfence",           # ✅ OK
-  ]
-[start]
-cmd = "node chatbot-borzi.js"
+[nixpacks]
+phases.build.nixPkgs = [
+  "alsa-lib"
+  "atk"
+  "chromium"
+  "cups"
+  "gtk3"
+  "xorg.libxshmfence"
+  "mesa"
+  "nodejs_18"
+  "nss"
+  "pango"
+]
