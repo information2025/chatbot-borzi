@@ -15,6 +15,5 @@ nixPkgs = [
   "glu",
   "chromium"
 ]
-
 [start]
 cmd = "node chatbot-borzi.js"
